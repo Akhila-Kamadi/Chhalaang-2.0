@@ -28,7 +28,7 @@ public class TransactionController {
 
     @PostMapping("/member")
     public String signup(@RequestBody LoginDTO login){
-        return "login Success";
+        return "login Successful";
     }
 
 }
